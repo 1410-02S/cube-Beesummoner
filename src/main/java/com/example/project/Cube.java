@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.Collections;
 
 
+//Overall complete enough so good job. Could have some usability tweaks but seems good enough to me.
+
+
 public class Cube {
 
     static String[][] cube = {
@@ -302,6 +305,7 @@ public class Cube {
         boolean proceed = true;
 
         while (proceed) {
+            //Could be good idea to include some prompts here..
             String input;
 
             if (!argsCheck) {
@@ -384,6 +388,8 @@ public class Cube {
                 case "q":
                     proceed = false;
                     break;
+
+                    ///You really need a default case here for incorrect input.
 
             }
         }
